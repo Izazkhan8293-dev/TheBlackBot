@@ -2,19 +2,19 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}\n𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
 
     ABOUT_TXT ="""<b>✯ Mʏ ɴᴀᴍᴇ: {}
-✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/TheBlackXYZBotz>TheBlackXYZBotz</a>
+✯ Dᴇᴠᴇʟᴏᴩᴇʀ: <a herf=https://t.me/sarbudeen786>Mr.Sarbudeen</a>
 ✯ Cᴏᴅᴇᴅ Oɴ: ᴩʏᴛʜᴏɴ/ᴩʏʀᴏɢʀᴀᴍ
 ✯ Mʏ DᴀᴛᴀBᴀꜱᴇ: ᴍᴏɴɢᴏ-ᴅʙ
 ✯ Mʏ Sᴇʀᴠᴇʀ: ᴀɴʏᴡʜᴇʀᴇ
 ✯ Mʏ Vᴇʀꜱɪᴏɴ: Tʜᴇ Bʟᴀᴄᴋ Bᴏᴛ ᴠ1.0.2</b>"""
 
     SOURCE_TXT = """<b>SOURCE:</b>
-  Tʜɪs Is TʜᴇBʟᴀᴄᴋXYZBᴏᴛᴢ Dᴇᴠʟᴏᴘᴇʀʀ
+  Tʜɪs Is Mr.Sarbudeen  Dᴇᴠʟᴏᴘᴇʀʀ
 
-Oᴘᴇɴ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ :- GitHub.com/TheBlackxyz
+Sᴏᴜʀᴄᴇ Cᴏᴅᴇ :- Private
 
 <b>OWNER:</b>
-- Oᴡɴᴇʀ Hᴇʟᴘ<a href=https://t.me/TheBlackXYZOwnerBot>TʜᴇBʟᴀᴄᴋXYZBᴏᴛᴢ</a>"""
+- Oᴡɴᴇʀ Hᴇʟᴘ<a href=https://t.me/sarbudeen786>Sarbudeen</a>"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
@@ -389,6 +389,6 @@ Example:-
 /stream - ɢᴇᴛ sᴛʀᴇᴀᴍᴀʙʟᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀɴʏ ғɪʟᴇ</b>"""
 
 
-    LOGO = """ THEBLACKXYZBOTZ STARTED SERVICE IS HEALTHY ENJOY!!"""
+    LOGO = """ STARTED SERVICE IS HEALTHY ENJOY!!"""
 
 
