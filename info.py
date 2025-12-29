@@ -30,11 +30,11 @@ BOT_START_TIME = time()
 # Admins, Channels & Users
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1759982322').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001853074923 -1001565553195 -1002112912927 -1001889509068 -1001565553195').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP', '')
-auth_channel = environ.get('AUTH_CHANNEL', '-1001889509068')
+auth_channel = environ.get('AUTH_CHANNEL', '')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
@@ -71,14 +71,14 @@ MELCOW_NEW_USERS = is_enabled(environ.get('MELCOW_NEW_USERS', "True"), True)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 
 # Bg Remove And Url Shotner 
-RemoveBG_API = environ.get("RemoveBG_API", 'f7stCpqeKmuDeHMX66qH5V8D')
+RemoveBG_API = environ.get("RemoveBG_API", '')
 SHORT_URL = environ.get("SHORT_URL", 'yamlinks.com')
 SHORT_API = environ.get("SHORT_API", '8ba797ded52d10834ad44fc07bf9c659a67167d4')
 
 # Channel Links 💸 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TheBlackXYZ_Movie_Group')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/sarbudeen786')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TheBlackXYZ')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'The_Black_XYZ_SupportChat') # without @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'sarbudeen786') # without @
 FSUB_MODE = "REQ"
 REQ_CHANNEL = environ.get("REQ_CHANNEL", "TheBlackXYZBotz")
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
