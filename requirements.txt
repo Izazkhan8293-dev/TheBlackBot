@@ -8,7 +8,7 @@ tgcrypto==1.2.5
 requests
 bs4==0.0.1
 datetime
-
+pymongo
 #---database---#
 pymongo[srv]==3.12.3
 marshmallow==3.14.1
