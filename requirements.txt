@@ -10,10 +10,11 @@ bs4==0.0.1
 datetime
 pymongo
 #---database---#
-pymongo[srv]==3.12.3
+pymongo[srv]==4.7.4
 marshmallow==3.14.1
 umongo==3.0.1
 motor==2.5.1
+
 
 #---ytdl----#
 yt-dlp
