@@ -1,6 +1,6 @@
 import logging
 from pymongo import AsyncMongoClient
-client = AsyncMongoClient(MONGO_URI)
+client = AsyncMongoClient(DATABASE_URL)
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM, SHORT_URL, SHORT_API, ADMINS, REQ_CHANNEL
 from imdb import Cinemagoer
